@@ -1,0 +1,75 @@
+/* Скидання стандартних стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основний стиль сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a; /* темний фон */
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: #020617;
+    padding: 20px;
+    border-bottom: 2px solid #1e293b;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* MAIN */
+main {
+    padding: 40px 20px;
+}
+
+/* SECTION */
+section {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section p {
+    color: #cbd5f5;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #1e293b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
